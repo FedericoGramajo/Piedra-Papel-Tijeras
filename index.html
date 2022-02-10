@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="=UTF-8" />
+        <meta name="viewreport" content="width=device-widht, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Piedra, Papel o Tijeras</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
 
-<head>
-    <meta charset="=UTF-8">
-    <meta name="viewreport" content="width=device-widht, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Piedra, Papel o Tijeras</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <body>
+        <section class="juego">
+            <div class="puntaje">
+                <div class="puntaje-jugador">
+                    <h2>Jugador</h2>
+                    <p>0</p>
+                </div>
+                <div class="puntaje-computadora">
+                    <h2>Computadora</h2>
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="intro">
+                <h1>Piedra Papel o Tijeras</h1>
+                <button>Jugar!</button>
+            </div>
 
-<body>
-    <section class="juego">
-        <div class="puntaje">
-            <div class="puntaje-jugador">
-                <h2>Jugador</h2>
-                <p>0</p>
+            <div class="partido fadeOut">
+                <h2 class="ganador">Elige una opcion</h2>
+                <div class="manos">
+                    <img class="mano-jugador" src="Imagenes/piedra.png" alt="" />
+                    <img class="mano-computadora" src="Imagenes/piedra.png" alt="" />
+                </div>
+                <div class="opciones">
+                    <button class="piedra">Piedra</button>
+                    <button class="papel">Papel</button>
+                    <button class="tijeras">Tijeras</button>
+                </div>
             </div>
-            <div class="puntaje-computadora">
-                <h2>Computadora</h2>
-                <p>0</p>
-            </div>
-        </div>
-        <div class="intro">
-            <h1>Piedra Papel o Tijeras</h1>
-            <button>Jugar!</button>
-        </div>
-
-        <div class="partido fadeOut">
-            <h2 class="ganador">Elige una opcion</h2>
-            <div class="manos">
-                <img class="mano-jugador" src="Imagenes/piedra.png" alt="">
-                <img class="mano-computadora" src="Imagenes/piedra.png" alt="">
-            </div>
-            <div class="opciones">
-                <button class="piedra">Piedra</button>
-                <button class="papel">Papel</button>
-                <button class="tijeras">Tijeras</button>
-            </div>
-        </div>
-    </section>
-    <script src="app.js"></script>
-</body>
-
+        </section>
+        <script src="app.js"></script>
+    </body>
 </html>
